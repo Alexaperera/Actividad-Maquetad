@@ -1,0 +1,88 @@
+
+<!-- UNIVERSIDAD TECNOLOGICA METROPOLITANA 
+     DISEÑO WEB 
+     PROFESOR DIEGO 
+     ANGEMI ALEXANDRA CASANOVA PERERA
+     PARCIAL 3
+     3-D (DSM)-->
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Pasaporte</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulario de Pasaporte</h1>
+        <form action="#" method="post">
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+            
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+            <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+            
+            <label for="pais_nacimiento">País de Nacimiento:</label>
+            <select id="pais_nacimiento" name="pais_nacimiento" required>
+                <option value="">Selecciona un país</option>
+                <!-- Lista de países -->
+                <option value="Afghanistan">Afganistán</option>
+                <option value="Albania">Albania</option>
+                <option value="Zimbabwe">Zimbabue</option>
+                <option value="Afghanistan">Afganistán</option>
+                <option value="Albania">Albania</option>
+                <option value="">Mexico</option>
+                <option value="">Estados Unidos</option>
+                <option value="">Canada</option>
+                <option value="">Colombia</option>
+                <option value="">Argentina</option>
+                <option value="">Chile</option>
+                <option value="Zimbabwe">Zimbabue</option>
+            </select>
+            
+            <label for="nacionalidad">Nacionalidad:</label>
+            <select id="nacionalidad" name="nacionalidad" required>
+                <option value="">Selecciona una nacionalidad</option>
+                <option value="Afghan">Afgana</option>
+                <option value="Albanian">Albanesa</option>
+                <option value="">Mexicano</option>
+                <option value="">Estadounidense</option>
+                <option value="">Canadiense</option>
+                <option value="">Colombiano</option>
+                <option value="">Argentino</option>
+                <option value="">Chileno</option>
+                <option value="Zimbabwean">Zimbabuense</option>
+            </select>
+            
+            <label for="pais_emision_pasaporte">País donde se emitió el Pasaporte:</label>
+            <select id="pais_emision_pasaporte" name="pais_emision_pasaporte" required>
+                <option value="">Selecciona un país</option>
+                <option value="Afghanistan">Afganistán</option>
+                <option value="Albania">Albania</option>
+                <option value="">Mexico</option>
+                <option value="">Estados Unidos</option>
+                <option value="">Canada</option>
+                <option value="">Colombia</option>
+                <option value="">Argentina</option>
+                <option value="">Chile</option>
+                <option value="Zimbabwe">Zimbabue</option>
+          
+            </select>
+            
+            <label for="fecha_emision_pasaporte">Fecha de Emisión del Pasaporte:</label>
+            <input type="date" id="fecha_emision_pasaporte" name="fecha_emision_pasaporte" required>
+            
+            <label for="fecha_vencimiento_pasaporte">Fecha de Vencimiento del Pasaporte:</label>
+            <input type="date" id="fecha_vencimiento_pasaporte" name="fecha_vencimiento_pasaporte" required>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
